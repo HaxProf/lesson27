@@ -1,0 +1,19 @@
+@import url(null.css);
+
+body {
+  margin-top: 50px;
+}
+h1 {
+  font-size: 20px;
+}
+h1 {
+  animation: colors 1s linear 1s infinite alternate-reverse;
+}
+@keyframes colors {
+  from {
+    color: red;
+  }
+  to {
+    color: black;
+  }
+}
